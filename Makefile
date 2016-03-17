@@ -1,5 +1,5 @@
 PREFIX=/usr/local/zimg
-PWP=$(shell pwd)
+PWD=$(shell pwd)
 
 libluajit=./deps/LuaJIT-2.0.3/src/libluajit.a
 deps=$(libluajit)
